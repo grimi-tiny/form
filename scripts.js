@@ -64,22 +64,7 @@ inp.oninput = function(){
         btn.removeAttribute("disabled");
     }
 }
-
-//проверка равенства пароля
-
-
-password = document.querySelector("#password").value;
-passwordConfirm = document.querySelector("#password-confirm").value;
-//check = document.querySelector("#birth-day").setAttribute("disabled", true);
-btn.setAttribute("disabled", true)
-function checkPassword(password, passwordConfirm){
-        if(password !== passwordConfirm){
-                alert("Пароль не совпадает")
-        }else{
-                btn.setAttribute("disabled", true)
-        }
-}
-
+// валидация Email
 
 const EMAIL_REGEXP = /^(([^<>()[\].,;:\s@"]+(\.[^<>()[\].,;:\s@"]+)*)|(".+"))@(([^<>()[\].,;:\s@"]+\.)+[^<>()[\].,;:\s@"]{2,})$/iu;
 const input = document.querySelector('#email');

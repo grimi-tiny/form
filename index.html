@@ -34,9 +34,9 @@
         <input class="form-actve" id="password-confirm"  type="password" placeholder="Подтвердите пароль" minlength="8" pattern="[A-Z]{1,}[a-z]{1,}[0-9]{1,}[\x1F-\xBF]*" autocomplete="on" onchange="checkPassword" >
 
       <label for="birth-day">Дата рождения</label>
-        <input class="form-actve" id="birth-day"  type="date"  min="31.01.2005">
+        <input class="form-actve" id="birth-day"  type="date"   max="2005-01-01">
 
-      <button id="form-button" class="button" disabled >Отправить</button>
+      <button id="form-button" class="button" type="submit" disabled >Отправить</button>
     </div>
   </form>
 </div>
