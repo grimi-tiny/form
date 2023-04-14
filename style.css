@@ -5,10 +5,10 @@
     align-items: center;
 }
 .place h1{
-    padding-left: 17px;
+    max-width: 500px;
 }
 .place h2{
-    padding-left: 225px;
+    padding-left: 125px;
     font-size: 30px;
 }
 .login{
