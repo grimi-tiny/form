@@ -1,0 +1,59 @@
+.place{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.place h1{
+    padding-left: 17px;
+}
+.place h2{
+    padding-left: 225px;
+    font-size: 30px;
+}
+.login{
+    display: flex;
+    max-width: 500px;
+    padding: 20px;
+    border-radius: 10px;
+    background-image: url("https://images.unsplash.com/42/U7Fc1sy5SCUDIu4tlJY3_NY_by_PhilippHenzler_philmotion.de.jpg?ixlib=rb-0.3.5&q=50&fm=jpg&crop=entropy&s=7686972873678f32efaf2cd79671673d");
+    background-size: cover;
+    box-shadow: 5px 5px 5px 0px black ;
+}
+.login input{
+    padding: 22px 18px;
+    width: 500px;
+    height: 65px;
+    background: #ffffff;
+    box-sizing: border-box;
+    color: black;
+    font-size: 16px;
+    outline: none;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+.login label{
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 15px;
+    color:slategray;
+}
+.button{
+    padding: 20px;
+    width: 500px;
+    height: 64px;
+    background-color:cadetblue;
+    border: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #ffffff;
+    transition: background-color .5s;
+    border-radius: 5px;
+}
+.button:disabled{
+    background: #ccc;
+}
